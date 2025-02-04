@@ -34,7 +34,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/recipe-app.git
+git clone https://github.com/manishkumar2003
 cd recipe-app
 
 Install dependencies:

@@ -1,69 +1,90 @@
-# Welcome to your Lovable project
+Recipe App
 
-## Project info
+Overview
 
-**URL**: https://lovable.dev/projects/a386afec-468a-4660-b4af-d6b9831949fc
+The Recipe App is a ReactJS-based application that allows users to browse, search, and save their favorite recipes. It integrates with the Edamam API to fetch real-time recipe data, providing users with a seamless and interactive cooking experience.
 
-## How can I edit this code?
+Features
 
-There are several ways of editing your application.
+Browse Recipes: View a list of available recipes with titles, images, and brief descriptions.
 
-**Use Lovable**
+Search Functionality: Search for recipes based on keywords, ingredients, or dietary preferences.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a386afec-468a-4660-b4af-d6b9831949fc) and start prompting.
+Detailed Recipe View: Access complete recipe details, including ingredients, preparation steps, cooking time, and serving size.
 
-Changes made via Lovable will be committed automatically to this repo.
+Favorites: Mark recipes as favorites for easy access later.
 
-**Use your preferred IDE**
+Filters: Filter recipes by categories such as breakfast, lunch, dinner, and dietary restrictions.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+State Management: Utilizes Redux for efficient state handling.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Technologies Used
 
-Follow these steps:
+ReactJS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Redux
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Edamam API
 
-# Step 3: Install the necessary dependencies.
-npm i
+React Router
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Tailwind CSS (or your preferred styling framework)
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/recipe-app.git
+cd recipe-app
+
+Install dependencies:
+
+npm install
+
+Set up API credentials:
+
+Obtain an API key from Edamam.
+
+Create a .env file in the root directory and add:
+
+REACT_APP_EDAMAM_API_KEY=your_api_key
+REACT_APP_EDAMAM_APP_ID=your_app_id
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Usage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Open the app in the browser (http://localhost:5173 by default for Vite apps).
 
-**Use GitHub Codespaces**
+Search for recipes using the search bar.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click on a recipe to view its details.
 
-## What technologies are used for this project?
+Add recipes to your favorites list for future reference.
 
-This project is built with .
+Future Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+User Authentication: Allow users to create accounts and save their favorite recipes.
 
-## How can I deploy this project?
+Meal Planner: Enable users to plan weekly meals and generate grocery lists.
 
-Simply open [Lovable](https://lovable.dev/projects/a386afec-468a-4660-b4af-d6b9831949fc) and click on Share -> Publish.
+Offline Mode: Cache recipes for offline access.
 
-## I want to use a custom domain - is that possible?
+Contributing
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Contributions are welcome! To contribute:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature-branch).
+
+Make your changes and commit them (git commit -m 'Add new feature').
+
+Push to the branch (git push origin feature-branch).
+
+Open a pull request.
+
+
+
